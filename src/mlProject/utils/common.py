@@ -1,7 +1,7 @@
 import os  # Import the os module to interact with the operating system
 from box.exceptions import BoxValueError  # Import specific exception for handling Box errors
 import yaml  # Import the yaml module to handle YAML files
-from src.ml_Project import logger
+from .. import logger
 import json  # Import the json module for JSON file manipulation
 import joblib  # Import the joblib module for saving and loading binary files
 from ensure import ensure_annotations  # Import the ensure_annotations decorator to enforce type checks
