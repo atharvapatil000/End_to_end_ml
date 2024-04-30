@@ -11,7 +11,7 @@ __version__ = "0.0.0"
 # Defining metadata for the package
 REPO_NAME = "End_to_end_ml"
 AUTHOR_USER_NAME = "atharva"
-SRC_REPO = "mlProject"
+SRC_REPO = "cnnClassifier"
 AUTHOR_EMAIL = "atharvapatil000@gmail.com"  # Corrected missing opening quote
 
 # Setting up package using setuptools

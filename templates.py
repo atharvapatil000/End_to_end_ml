@@ -7,7 +7,7 @@ import logging  # Importing logging to enable logging of messages for debugging
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
 # Define the name of the project
-project_name = "mlProject"
+project_name = "cnnClassifier"
 
 # List of file paths to be created for the project setup
 list_of_files = [
