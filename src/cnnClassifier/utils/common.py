@@ -1,3 +1,5 @@
+## Utils are used when we want to use few function frequently
+
 import os  # Importing the 'os' module for interacting with the operating system.
 from box.exceptions import BoxValueError  # Importing a specific exception class from the 'box.exceptions' module.
 import yaml  # Importing the 'yaml' module for working with YAML files.

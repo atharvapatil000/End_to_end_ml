@@ -1,0 +1,24 @@
+# """ 
+# Ease of Management: All essential settings, such as paths, URLs, and operational parameters, are stored in one place. This makes it easier for developers to find and adjust settings without digging through code.
+# - Maintainability: Changes in the configuration, like updating paths or data sources, can be done in the YAML file without altering the codebase, making updates less error-prone and more straightforward. 
+# - Separation of Code and Configuration: By separating configuration from code, you can reuse the same code with different settings without modification. 
+# This is especially useful for deploying the same application under different scenarios or conditions, such as development, testing, and production environments.
+# """
+
+# Root directory for storing artifacts
+## Whenever you're creating End to end project and the component is generating something we call it as artifacts (you cannot store it in the project folder, that's why we create artifacts folder.)
+artifacts_root: artifacts 
+
+# Parameters related to data ingestion
+data_ingestion: ##Key
+  # Root directory for data ingestion artifacts
+  root_dir: artifacts/data_ingestion ##value
+  
+  # URL from which the data will be ingested
+  source_URL: https://drive.google.com/file/d/1posV3aDVU2tUJre5uSoloPk5bh6ej4Lm/view?usp=sharing
+  
+  # Local file path where the ingested data will be stored
+  local_data_file: artifacts/data_ingestion/data.zip
+  
+  # Directory where the ingested data will be unzipped
+  unzip_dir: artifacts/data_ingestion
